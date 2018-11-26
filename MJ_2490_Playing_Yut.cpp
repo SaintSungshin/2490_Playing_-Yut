@@ -17,16 +17,13 @@ int main() {
 		cout << endl;
 	}
 
-	int count = 0;
-
 	for (int m = 0; m < ROW; m++) {
 		
+		int count = 0;
 		for (int n = 0; n < COL; n++) {
-			if (list[m][n] == 0)
-				count++;
+			count += list[i][j];
 		}
 		
-		//Count numbers of front
 		switch (count) {
 			case 0: cout << 'E' << endl; break;
 			case 1: cout << 'A' << endl; break;
