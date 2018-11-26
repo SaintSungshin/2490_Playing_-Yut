@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	{
-		cout << "Enter the number 0~1 4�� : ";
+		cout << "Enter the number 0~1 4°³ : ";
 
 		int list[3][4];
 		for (int i = 0; i < 3; i++) {
@@ -18,6 +18,7 @@ int main()
 			for (int j = 0; j < 4; j++) {
 				sum += list[i][j];
 			}
+			//민진: switch-case 추천합니다
 			if (sum == 0)
 				cout << "D" << endl;
 			else if (sum == 1)
