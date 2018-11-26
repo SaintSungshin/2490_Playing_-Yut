@@ -17,6 +17,7 @@ int main()
 		for (int j = 0; j < 4; j++) {
 			sum = sum + list[i][j];
 		}
+		//민진: switch-case를 추천합니다. (나오는 값이 모두 다른 정수라서)
 		if (sum == 0)
 			cout << "D" << endl;
 		else if (sum == 1)
