@@ -15,6 +15,7 @@ int main()
 	for (int i = 0; i < 3; i++) {
 		int sum = 0;
 		for (int j = 0; j < 4; j++) {
+			//민진: sum += list[i][j]; 쓰시길 추천, 별다른 이유는 
 			sum = sum + list[i][j];
 		}
 		//민진: switch-case를 추천합니다. (나오는 값이 모두 다른 정수라서)
